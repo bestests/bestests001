@@ -1,0 +1,26 @@
+{
+  "name": "bestests001",
+  "homepage": "https://github.com/bestests/bestests001",
+  "authors": [
+    "bestests <bestests@naver.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "install": {
+    "path": {
+      "css": "/src/main/webapp/WEB-INF/lib/css",
+      "js": "/src/main/webapp/WEB-INF/lib/js"
+    }
+  },
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}
