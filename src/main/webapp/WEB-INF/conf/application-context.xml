@@ -25,7 +25,6 @@
     <context:exclude-filter type="regex" 
                             expression="bestests001.board001.controller.*"/>
   </context:component-scan>
-    
   
   <bean id="sqlSessionFactory" 
         class="org.mybatis.spring.SqlSessionFactoryBean">
@@ -53,9 +52,9 @@
 	<bean class="org.springframework.jdbc.datasource.DriverManagerDataSource"
         id="dataSource">
 	    <property value="oracle.jdbc.driver.OracleDriver" name="driverClassName" />
-	    <property value="jdbc:oracle:thin:@localhost:1521/BOARD001DB"
+	    <property value="jdbc:oracle:thin:@localhost:1521:orcl"
 	        name="url" />
-	    <property value="BESTESTS" name="username" />
+	    <property value="C##BESTESTS" name="username" />
 	    <property value="1234" name="password" />
 	</bean>
   
