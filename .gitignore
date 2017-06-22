@@ -5,4 +5,4 @@
 /.classpath
 /.project
 /bower_components/
-/src/main/webapp/resources/lib/
+/src/main/webapp/WEB-INF/lib/
