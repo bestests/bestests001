@@ -16,6 +16,7 @@
   
   <!-- @RequestMapping 등 웹 관련 애노테이션을 처리할 객체를 등록한다. -->
 	<mvc:annotation-driven/>
+	<mvc:resources mapping="/js/**" location="/WEB-INF/lib/js/" />
 	
   <!-- 멀티파트 요청 파라미터를 처리할 객체 등록 -->
   <bean id="multipartResolver"

@@ -42,6 +42,8 @@
 	<servlet-mapping>
 		<servlet-name>dispatch</servlet-name>
 		<url-pattern>*.htm</url-pattern>
+		<url-pattern>*.css</url-pattern>
+		<url-pattern>*.js</url-pattern>
 	</servlet-mapping>
 	
 	

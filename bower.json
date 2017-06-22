@@ -16,8 +16,8 @@
   ],
   "install": {
     "path": {
-      "css": "/src/main/webapp/resources/lib/css",
-      "js": "/src/main/webapp/resources/lib/js"
+      "css": "/src/main/webapp/WEB-INF/lib/css",
+      "js": "/src/main/webapp/WEB-INF/lib/js"
     }
   },
   "dependencies": {
